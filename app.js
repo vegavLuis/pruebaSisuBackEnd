@@ -10,9 +10,11 @@ app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get("/", (req, res) => {
-  res.send("Hola mundo");
-});
+// app.get("/", (req, res) => {
+//   res.send("Hola mundo");
+// });
+
+app.use('/api', require('./routes/formulario'))
 
 app.use(express.static(path.join(__dirname, "public")));
 
