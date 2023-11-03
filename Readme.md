@@ -4,7 +4,7 @@ Este es el FrontEnd https://github.com/vegavLuis/pruebaSisuFrontEnd
 
 Este es el BackEnd https://github.com/vegavLuis/pruebaSisuBackEnd
 
-Para el bac utilize javascript del lado del servidor (Node.js) y para el front end utilice Vuejs
+Para el backEnd utilice javascript del lado del servidor (Node.js, express) y para el frontEnd utilice Vuejs
 
 npm i
 
